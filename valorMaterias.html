@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor materias matriculadas | Ejercicio 1</title>
+</head>
+<body>
+    <script src="./valorMaterias.js" alt="Valor materias matriculadas"> </script>
+    
+    <header>
+    <h1>Valor total de las materias que matriculó <br> con el
+        descuento del 20% más los costos fijos.</h1>
+   
+    </header>
+    <section>
+        <form>
+            <ul>
+                <li>
+                    <label>¿Cual es su nombre?</label><br>
+                    <input type="text" id="nombre"/>
+                </li>
+                <li>
+                    <label>Cantidad de materias o asignaturas a matricular</label><br>
+                    <input type="number" id="cantidadMaterias"/>
+                </li>
+                <li>
+                    <label>Valor de cada materia o asignatura</label><br>
+                    <input type="number" id="valorMaterias"/>
+                </li>
+                <li>
+                    <label>Valor de la papelería</label><br>
+                    <input type="any" value="20000" id="valorPapeleria"/>
+                </li>
+                <li>
+                    <label>Valor del carné</label><br>
+                    <input type="any" value="8000" id="valorCarnet"/>
+                </li>
+            <button type="button" onclick="PrecioFinal()"> PrecioFinal</button>
+            </ul>
+        </form>
+        <p id="PrecioF"></p>
+    </section>
+
+</body>
+</html>
